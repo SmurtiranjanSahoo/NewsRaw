@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
             val appUrl = "https://github.com/SmurtiranjanSahoo/NewsRaw"
             val intent = Intent(Intent.ACTION_SEND)
             intent.type ="text/plain"
-            intent.putExtra(Intent.EXTRA_TEXT, "Checkout This Amazing Meme App $appUrl")
+            intent.putExtra(Intent.EXTRA_TEXT, "Checkout This Amazing News App $appUrl")
             val chooser = Intent.createChooser(intent, "Share this App Using ...")
             startActivity(chooser)
             true

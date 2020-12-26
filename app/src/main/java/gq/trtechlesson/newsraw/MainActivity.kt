@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
             true
         }
         R.id.menu_share -> {
-            val appUrl = "https://github.com/SmurtiranjanSahoo/MemeShare"
+            val appUrl = "https://github.com/SmurtiranjanSahoo/NewsRaw"
             val intent = Intent(Intent.ACTION_SEND)
             intent.type ="text/plain"
             intent.putExtra(Intent.EXTRA_TEXT, "Checkout This Amazing Meme App $appUrl")

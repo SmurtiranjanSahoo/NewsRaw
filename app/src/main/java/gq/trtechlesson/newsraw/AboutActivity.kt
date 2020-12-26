@@ -9,7 +9,7 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
-        About.text = "This is a News App, where you can find latest News"
+        About.text = "This is a News App, where you can find News"
 
     }
 }
